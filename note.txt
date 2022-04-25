@@ -28,3 +28,17 @@ tensorboard --logdir=logs/ --host=0.0.0.0
 
 then portforward in termius and open your browser at 
 localhost:6006/
+
+
+
+Maintaining Version Control
+
+every time you update something you will see green label
+you need to push the changes
+#remember in future you might have bigger files you don't want to push
+#create .gitignore file and inlcude all the files that you don't want 
+#see details in internet
+
+git add --all
+git commit -m "message"
+git push -u origin main
